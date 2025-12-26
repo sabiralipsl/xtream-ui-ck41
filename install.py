@@ -180,9 +180,9 @@ def install(rType="MAIN"):
 
 def update(rType="MAIN"):
     if rType == "UPDATE":
-        rlink = "https://github.com/sabiralipsl/Xtream-UI-R22F-ubuntu24.04-2025/releases/download/xtream24/update.zip"
+        rlink = "https://lofertech.com/mod/update.zip"
     else:
-        rlink = "https://github.com/sabiralipsl/Xtream-UI-R22F-ubuntu24.04-2025/releases/download/xtream24/release_22f.zip"
+        rlink = "https://lofertech.com/mod/update.zip"
         printc("Downloading Software Update")  
     os.system('wget -q -O "/tmp/update.zip" "%s"' % rlink)
     if os.path.exists("/tmp/update.zip"):
